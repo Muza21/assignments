@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+  width: 310px; /* width is 360px but since padding is 25, width -50px will be the width*/
+  border-radius: 20px;
+}
+
+.card1 {
+  height: 456px; /* height is 506 but since padding is 25, height -50px will be the height*/
+  padding: 25px;
+}
+
+.card2 {
+  height: 331px; /* height is 381px since padding is 25px height -50px*/
+  padding: 20px;
+}
+
+/*
+ * Card 1 styles
+ */
+
+.card1 .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card1 .top_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card1 .top_details .image_container {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 .top_left_details {
+  /* font-family: sans-serif; */
+}
+
+.card1 .top_left_details h2 {
+  color: #000;
+  font-size: 33px;
+  font-weight: 700; /* bold */
+  line-height: 32.5px;
+}
+
+.card1 .top_left_details p {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}
+/* 
+.card1 .image_container {
+  width: 100%;
+  margin: auto;
+} */
+
+.card1 .image_container .product_image {
+  width: 232.11px;
+  height: 230.96px;
+  border-radius: 50%;
+  background: linear-gradient(#00f5a0, #00d9f5);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card1 .bottom_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card1 .bottom_left_details h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.card1 .bottom_right_details .image_container {
+  width: 54px;
+  height: 54px;
+  background-color: #000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+ * Card 2 styles
+ */
