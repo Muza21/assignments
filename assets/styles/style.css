@@ -20,16 +20,15 @@ body {
   background-color: #fff;
   width: 310px; /* width is 360px but since padding is 25, width -50px will be the width*/
   border-radius: 20px;
+  padding: 25px;
 }
 
 .card1 {
   height: 456px; /* height is 506 but since padding is 25, height -50px will be the height*/
-  padding: 25px;
 }
 
 .card2 {
   height: 331px; /* height is 381px since padding is 25px height -50px*/
-  padding: 20px;
 }
 
 /*
@@ -116,3 +115,54 @@ body {
 /*
  * Card 2 styles
  */
+
+.card2 .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.card2 .details .image_container {
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+  background-color: #7090b01f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2 .details h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.card2 .details p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+}
+
+.card2 .details button {
+  outline: inherit;
+  cursor: pointer;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.23px;
+  padding: 12px 16px;
+  border-radius: 50px;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.card2 .empty_div {
+  width: 30px;
+  height: 34px;
+  visibility: hidden;
+}
