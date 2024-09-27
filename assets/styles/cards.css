@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: aqua;
   width: 100vw;
   height: 100vh;
 }
@@ -12,14 +12,64 @@ body {
 .cards_container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
   height: 100%;
 }
 
 .card {
-  width: 310px;
-  padding: 25px;
+  width: 360px;
+  border-radius: 20px;
 }
 
 .card1 {
   background-color: #fff;
+  height: 367px;
+}
+
+.card1 .top_details {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card1 .top_details .left_details {
+  display: flex;
+  align-items: center;
+}
+
+.card1 .top_details .left_details .image_container {
+  margin-right: 10px;
+}
+
+.card1 .card_image_container,
+.card1 .card_image_container img {
+  width: 100%;
+}
+
+.card1 .bottom_details {
+}
+
+.card1 .top_details h3 {
+  font-size: 20px;
+  line-height: 23.44px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.card1 .top_details p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25.5px;
+  color: #78858f;
+}
+
+.card1 .bottom_details p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  padding: 20px 25px;
+  color: #78858f;
 }
