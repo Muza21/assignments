@@ -70,3 +70,83 @@ body {
   padding: 20px 25px;
   color: #78858f;
 }
+
+/*
+ * the card 2nd.
+ */
+
+.card2 {
+  background-color: #fff;
+  height: 420px;
+  width: 300px;
+  padding: 30px;
+}
+
+.card2 .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+}
+
+.card2 .image_container {
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card2 .image_container img {
+  width: 172px;
+}
+
+.card2 .top_details {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.card2 .song_details h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32.81px;
+  color: #000;
+}
+
+.card2 .song_details p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.5px;
+  color: #737373;
+}
+
+.card2 .bottom_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  width: 100%;
+}
+
+.card2 .bottom_details img {
+  width: 218px;
+}
+
+.card2 .music_navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card2 .music_navigation .play {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ececec;
+  border-radius: 50%;
+}
