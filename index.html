@@ -25,36 +25,48 @@
     <title>Login</title>
   </head>
   <body>
-    <header><h2>logo</h2></header>
     <main>
-      <form action="#">
-        <h2>login with lorem</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
-        <label for="username">user name</label>
-        <input
-          type="text"
-          id="username"
-          placeholder="type your username here"
-        />
+      <div class="left-container">
+        <h1>logo</h1>
+        <form action="#">
+          <h3>login with <span>lorem</span></h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <div>
+            <label for="username">user name</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="type your username here"
+            />
+          </div>
+          <div>
+            <label for="password">enter your <span>password</span></label>
+            <div class="possword-container">
+              <input
+                type="text"
+                id="password"
+                placeholder="type your password here"
+              />
+              <img src="./assets/images/icons/eye.svg" alt="eye" />
+            </div>
+          </div>
+          <div class="options">
+            <input type="checkbox" id="remember" />
+            <label for="remember">remember me?</label>
+            <a href="#">forgot password ?</a>
+          </div>
+          <button class="button login">login</button>
+        </form>
+      </div>
 
-        <label for="password">enter your password</label>
-        <input
-          type="text"
-          id="password"
-          placeholder="type your password here"
-        />
-        <img src="./assets/images/icons/eye.svg" alt="eye" />
-        <div class="">
-          <input type="checkbox" />
-          <span>remember me?</span>
-          <span>forgot password?</span>
+      <div class="fill-color">
+        <div class="image-container">
+          <img src="./assets/images/cover.jpeg" alt="children laying down" />
         </div>
-        <button class="button login">login</button>
-      </form>
-      <img src="./assets/images/cover.png" alt="children laying down" />
+      </div>
     </main>
     <!-- <footer></footer> -->
   </body>
