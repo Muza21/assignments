@@ -1,3 +1,3 @@
 # assignments
 
-![alt text](image.png)
+![alt text](./assets/images/image.png)
